@@ -26,7 +26,7 @@ public class ATM {
         this.cash100 += cash100;
     }
 
-    public void spend(int cashToSpend) {
+    public boolean spend(int cashToSpend) {
         int need20 = 0;
         int need50 = 0;
         int need100 = 0;
@@ -57,6 +57,7 @@ public class ATM {
         if (ostatokToSpend % 20 > 0 || ostatokToSpend > cash20 * 20) {
             System.out.println("wrong summ");
             System.out.println("Balance:" + (int)(cash100*100+cash50*50+cash20*20) + "try to exchange:" + cashToSpend);
+            return false;
 
         } else {
             need20 = (ostatokToSpend - ostatokToSpend % 20) / 20;
@@ -65,6 +66,7 @@ public class ATM {
             cash20 -= need20;
 
             System.out.println("Выдано " + cashToSpend + ":" + " cash100:" + need100 + " cash50:" + need50 + " cash20:" + need20);
+            return true;
 //            System.out.println("Осталось " + ostatokToSpend);
         }
     }

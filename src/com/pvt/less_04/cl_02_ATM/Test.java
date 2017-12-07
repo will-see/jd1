@@ -9,7 +9,7 @@ public class Test {
         System.out.println("В банкомате " + " cash100:" + atm1.cash100 + " cash50:" + atm1.cash50 + " cash20:" + atm1.cash20);
         atm1.spend(750);
         System.out.println("В банкомате " + " cash100:" + atm1.cash100 + " cash50:" + atm1.cash50 + " cash20:" + atm1.cash20);
-        atm1.fillATM(5,5,5);
+        atm1.fillATM(5,5,10);
         System.out.println("В банкомате " + " cash100:" + atm1.cash100 + " cash50:" + atm1.cash50 + " cash20:" + atm1.cash20);
     }
 }
