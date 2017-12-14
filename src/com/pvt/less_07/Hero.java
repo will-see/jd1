@@ -3,7 +3,7 @@ package com.pvt.less_07;
 /**
  * Created by W510 on 13.12.2017.
  */
-public class Hero{
+public abstract class Hero{
     public String name;
 
     public Hero(String name) {
@@ -13,8 +13,5 @@ public class Hero{
     public String getName() {
         return name;
     }
-    public void attackEnemy(Enemy enemy){
-        enemy.takeDamage(0);
-        System.out.println(name + " атакует врага.");
-    }
+    public abstract void attackEnemy(Enemy enemy);
 }

@@ -3,7 +3,7 @@ package com.pvt.less_07;
 /**
  * Created by W510 on 13.12.2017.
  */
-public class Enemy {
+public class Enemy implements Mortal{
     int health;
 
     public Enemy(int health) {
@@ -17,6 +17,12 @@ public class Enemy {
     }
     public void takeDamage(int damage){
         health-=damage;
-        System.out.println(damage + " " + health);
+    }
+    @Override
+    public boolean isAlive() {
+        if (health>0){
+            return true;
+        }
+        return false;
     }
 }

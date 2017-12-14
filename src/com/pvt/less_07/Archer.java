@@ -11,6 +11,6 @@ public class Archer extends  Hero {
     public void attackEnemy(Enemy enemy) {
 
         enemy.takeDamage(5);
-        System.out.println(name + " активно атакует врага.");
+        System.out.println(name + " активно атакует " + enemy);
     }
 }
