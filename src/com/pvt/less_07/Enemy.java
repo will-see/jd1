@@ -18,6 +18,10 @@ public class Enemy implements Mortal{
     public void takeDamage(int damage){
         health-=damage;
     }
+    public void attackHero(Hero hero) {
+        hero.takeDamage(20);
+        System.out.println(this + " сильно атакует " + hero.getName());
+    }
     @Override
     public boolean isAlive() {
         if (health>0){
