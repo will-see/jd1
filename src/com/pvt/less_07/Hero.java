@@ -13,9 +13,8 @@ public class Hero{
     public String getName() {
         return name;
     }
-    public void attackEnemy(int Enemy){
-
-//        takeDamage(Enemy);
+    public void attackEnemy(Enemy enemy){
+        enemy.takeDamage(0);
         System.out.println(name + " атакует врага.");
     }
 }

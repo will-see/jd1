@@ -4,5 +4,5 @@ package com.pvt.less_08;
  * Created by W510 on 13.12.2017.
  */
 public interface CalculateSquare {
-
+    double calcSquare();
 }
