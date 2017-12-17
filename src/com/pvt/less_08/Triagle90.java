@@ -15,11 +15,6 @@ public class Triagle90 extends Shape {
     }
 
     @Override
-    public double calcPerimetr() {
-        return a+b+Math.sqrt(a*a+b*b);
-    }
-
-    @Override
     public double calcSquare() {
         return a*b/2;
     }

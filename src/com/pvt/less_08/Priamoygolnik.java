@@ -12,13 +12,17 @@ public class Priamoygolnik extends Shape{
         this.b = b;
     }
 
-    @Override
-    public double calcPerimetr() {
-        return (a+b)*2;
+    public double calcDiagonal() {
+        return Math.sqrt(a*a+b*b);
     }
 
     @Override
     public double calcSquare() {
         return a*b;
+    }
+
+    @Override
+    public boolean isAreaEquals(Shape shape) {
+        return super.isAreaEquals(shape);
     }
 }

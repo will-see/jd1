@@ -10,11 +10,12 @@ public class Circle extends Shape{
         this.d = d;
     }
     @Override
-    public double calcPerimetr() {
-        return d*Math.PI;
-    }
-    @Override
     public double calcSquare() {
         return Math.PI*d*d/4;
+    }
+
+    @Override
+    public boolean isAreaEquals(Shape shape) {
+        return super.isAreaEquals(shape);
     }
 }
