@@ -13,8 +13,8 @@ public class Test {
             System.out.println("yes");
         }else System.out.println("no");
 
-        Quad q = new Quad(5,5);
-        Quad q1 = new Quad(5,5);
+        Quad q = new Quad(5);
+        Quad q1 = new Quad(5);
 
         if (q.isAreaEquals(q1)){
             System.out.println("yes");
