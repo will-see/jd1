@@ -1,12 +1,15 @@
 package com.pvt.less_10;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-import sun.org.mozilla.javascript.internal.regexp.SubString;
-
 import java.util.Scanner;
 
 /**
  * Created by W510 on 20.12.2017.
+ *
+ * 4.	Ввести с консоли число, занести его цифры в стек. Стек – самостоятельно спроектированный класс, поддерживающий 3 операции:
+ •	Задать размер стека.
+ •	Внести цифру в стек.
+ •	Извлечь цифру из стека.
+ Вывести число, у которого цифры идут в обратном порядке.
  */
 public class cl_04 {
     public static void main(String[] args) {

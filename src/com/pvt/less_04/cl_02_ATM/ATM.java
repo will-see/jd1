@@ -32,31 +32,48 @@ public class ATM {
         int need100 = 0;
         int ostatokToSpend = cashToSpend;
 
-        if (cashToSpend - cashToSpend % 100 > cash100 * 100) {
-            need100 = cash100;
-            ostatokToSpend -= cash100 * 100;
+        if (cashToSpend % 20 == 0 || (cashToSpend / 10) % 10 >= 5) {
+            if (cashToSpend - cashToSpend % 100 > cash100 * 100) {
+                need100 = cash100;
+                ostatokToSpend -= cash100 * 100;
+            } else {
+                need100 = (ostatokToSpend - ostatokToSpend % 100) / 100;
+                ostatokToSpend -= need100 * 100;
+            }
         } else {
-            need100 = (ostatokToSpend - ostatokToSpend % 100) / 100;
-            ostatokToSpend -= need100 * 100;
+
+            if (cashToSpend - cashToSpend % 100 > cash100 * 100) {
+                need100 = cash100;
+                ostatokToSpend -= cash100 * 100;
+            } else {
+                if (cashToSpend < 150) {
+                    need100 = 0;
+                } else {
+                    need100 = ((ostatokToSpend - ostatokToSpend % 100) / 100)-1;
+                }
+                ostatokToSpend -= need100 * 100;
+            }
         }
+
+
         if (ostatokToSpend - ostatokToSpend % 50 > cash50 * 50) {
             need50 = cash50;
             ostatokToSpend -= cash50 * 50;
-            if(ostatokToSpend%20!=0){
+            if (ostatokToSpend % 20 != 0) {
                 need50--;
-                ostatokToSpend+=50;
+                ostatokToSpend += 50;
             }
         } else {
             need50 = (ostatokToSpend - ostatokToSpend % 50) / 50;
             ostatokToSpend -= need50 * 50;
-            if(ostatokToSpend%20!=0){
+            if (ostatokToSpend % 20 != 0) {
                 need50--;
-                ostatokToSpend+=50;
+                ostatokToSpend += 50;
             }
         }
         if (ostatokToSpend % 20 > 0 || ostatokToSpend > cash20 * 20) {
             System.out.println("wrong summ");
-            System.out.println("Balance:" + (int)(cash100*100+cash50*50+cash20*20) + "try to exchange:" + cashToSpend);
+            System.out.println("Balance:" + (int) (cash100 * 100 + cash50 * 50 + cash20 * 20) + "try to exchange:" + cashToSpend);
             return false;
 
         } else {

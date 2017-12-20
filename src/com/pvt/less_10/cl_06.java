@@ -4,6 +4,7 @@ import java.util.*;
 
 /**
  * Created by W510 on 19.12.2017.
+ * 6.	Имеется текст. Следует составить для него частотный словарь.
  */
 public class cl_06 {
     public static void main(String[] args) {
