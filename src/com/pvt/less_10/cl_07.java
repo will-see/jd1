@@ -1,6 +1,9 @@
 package com.pvt.less_10;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Set;
+import java.util.TreeSet;
 
 /**
  * Created by W510 on 20.12.2017.
@@ -13,6 +16,12 @@ public class cl_07 {
             list.add((int) (Math.random() * 20 - 10));
         }
         System.out.println(list);
+        ArrayList<Integer> list2 = new ArrayList<>(list);
+//        Set<Integer> set = new TreeSet<>();
+//        for(int i=0; i<list2.size();i++){
+//            set.add(list2.get(i));
+//        }
+//        System.out.println(set);
         int i = 0;
         int cicleCount = list.size();
         while (cicleCount >0) {
@@ -29,5 +38,6 @@ public class cl_07 {
             cicleCount--;
         }
         System.out.println(list);
+//        System.out.println(set);
     }
 }

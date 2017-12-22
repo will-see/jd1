@@ -21,7 +21,6 @@ class Stack<E> {
 
     E pop() {
         realLength--;
-
         if (realLength >= 0) {
             return list.remove(realLength);
         } else {
