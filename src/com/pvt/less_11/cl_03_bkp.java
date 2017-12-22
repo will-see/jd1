@@ -20,12 +20,55 @@ public class cl_03_bkp {
         map2.put(2, 4);
         map2.put(0, -5);
 
-        if (map1.size() > map2.size()) {
-            System.out.println(getSum(map1, map2));
-        } else {
-            System.out.println(getSum(map2, map1));
-        }
+        System.out.println(getSSum(map1, map2));
 
+    }
+
+    private static String getSSum(Map<Integer, Integer> map1, Map<Integer, Integer> map2) {
+        String s = "";
+        int maxKey = 0;
+        TreeSet<Integer> set = new TreeSet<>();
+        TreeSet<Integer> reverseSet = new TreeSet<>();
+        for (Map.Entry<Integer, Integer> entry : map1.entrySet()) {
+            set.add(entry.getKey());
+        }
+        for (Map.Entry<Integer, Integer> entry : map2.entrySet()) {
+            set.add(entry.getKey());
+        }
+        reverseSet = (TreeSet) set.descendingSet();
+        System.out.println(reverseSet);
+
+        Iterator<Integer> iter = reverseSet.iterator();
+        while (iter.hasNext()) {
+            int currentKey = iter.next();
+            int val1 = 0;
+            int val2 = 0;
+            if (map1.containsKey(currentKey)) {
+                val1 = map1.get(currentKey);
+            }
+            if (map2.containsKey(currentKey)) {
+                val2 = map2.get(currentKey);
+            }
+            int sumValues = val1 + val2;
+            if (sumValues != 0) {
+                switch (currentKey) {
+                    case 0:
+                        s += " + " + sumValues;
+                        break;
+                    case 1:
+                        s += " + " + sumValues + "x";
+                        break;
+                    default:
+                        if (s.isEmpty()) {
+                            s += sumValues + "x^" + currentKey;
+                        } else {
+                            s += " + " + sumValues + "x^" + currentKey;
+                        }
+                }
+            }
+        }
+        System.out.println(s);
+        return s;
     }
 
     static String getSum(Map<Integer, Integer> map1, Map<Integer, Integer> map2) {
