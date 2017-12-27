@@ -2,6 +2,9 @@ package com.pvt.less_13;
 
 /**
  * Created by W510 on 27.12.2017.
+ * Написать два цикла, выполняющих многократное сложение строк, один с помощью оператора сложения и String,
+ второй с помощью StringBuilder и метода append. Сравнить скорость их выполнения.
+
  */
 public class cl_01 {
     public static void main(String[] args) {
