@@ -13,16 +13,9 @@ public class cl_01 {
         String n = null;
         try {
             n.split("");
+//            n.substring(0,1);
         } catch (NullPointerException e) {
             System.out.println("exception");;
         }
-
-//        System.out.println(concatanate(i,n));
-//    }
-//
-//    private static int concatanate(int i, String n) {
-//
-//        i = i + n;
-//     return i  ;
     }
 }
