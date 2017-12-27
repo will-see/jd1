@@ -12,7 +12,8 @@ public class cl_01 {
     public static void main(String[] args) {
         String n = null;
         try {
-            n.split("");
+            n.compareTo("");
+//            n.split("");
 //            n.substring(0,1);
         } catch (NullPointerException e) {
             System.out.println("exception");;
