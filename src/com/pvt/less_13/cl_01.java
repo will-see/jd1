@@ -11,14 +11,14 @@ public class cl_01 {
         String s ="";
         long timeStartString = System.currentTimeMillis();
         StringBuilder sb = new StringBuilder();
-        for (int i=0; i<1000; i++){
+        for (int i=0; i<10000; i++){
             s+="a";
         }
         long timeStopString = System.currentTimeMillis();
         long timeString = timeStopString-timeStartString;
 
         long timeStartSB = System.currentTimeMillis();
-        for (int i=0; i<1000; i++){
+        for (int i=0; i<10000; i++){
             sb.append("a");
         }
         long timeStopSB = System.currentTimeMillis();
