@@ -21,6 +21,7 @@ public class cl_01 {
                 uniqueList.add(list.get(i));
             }
         }
+        System.out.println(uniqueList);
         return uniqueList.size();
     }
 }

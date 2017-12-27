@@ -20,70 +20,65 @@ public class cl_03 {
         map2.put(2, 4);
         map2.put(0, -5);
 
-        if (map1.size() > map2.size()) {
-            System.out.println(getSum(map1, map2));
-        } else {
-            System.out.println(getSum(map2, map1));
-        }
+        System.out.println(getSSum(map1, map2));
 
     }
 
-    static String getSum(Map<Integer, Integer> map1, Map<Integer, Integer> map2) {
+    private static StringBuilder getSSum(Map<Integer, Integer> map1, Map<Integer, Integer> map2) {
+        String s = "";
         StringBuilder sb = new StringBuilder();
-
-        for (Map.Entry<Integer, Integer> entry2 : map2.entrySet()) {
-            Integer key2 = entry2.getKey();
-
-            for (Map.Entry<Integer, Integer> entry1 : map1.entrySet()) {
-                Integer key1 = entry1.getKey();
-
-                if (key1 > key2) {
-                    map1.put(key2, entry2.getValue());
-                    break;
-                }
-                if (Objects.equals(key1, key2)) {
-                    int value = entry1.getValue() + entry2.getValue();
-
-                    if (value == 0) {
-                        map1.remove(key1);
-                    } else {
-                        map1.put(key1, value);
-                    }
-                    break;
-                }
-            }
+        TreeSet<Integer> set = new TreeSet<>();
+        TreeSet<Integer> reverseSet = new TreeSet<>();
+        for (Map.Entry<Integer, Integer> entry : map1.entrySet()) {
+            set.add(entry.getKey());
         }
+        for (Map.Entry<Integer, Integer> entry : map2.entrySet()) {
+            set.add(entry.getKey());
+        }
+        reverseSet = (TreeSet) set.descendingSet();
+//        System.out.println(reverseSet);
 
-        ArrayList<Integer> keyList = new ArrayList<>(map1.keySet());
-        Collections.reverse(keyList);
-
-        boolean isFirstIteration = true;
-        for (Integer key : keyList) {
-            Integer value = map1.get(key);
-            boolean isValuePositive = value > 0;
-            String plusString = isValuePositive ? "+" : "-";
-            value = Math.abs(value);
-
-            if (!isFirstIteration || !isValuePositive) {
-                sb.append(plusString);
+        Iterator<Integer> iter = reverseSet.iterator();
+        String znak = " + ";
+        while (iter.hasNext()) {
+            int currentKey = iter.next();
+            int val1 = 0;
+            int val2 = 0;
+            if (map1.containsKey(currentKey)) {
+                val1 = map1.get(currentKey);
             }
-            isFirstIteration = false;
-            if (key == 0) {
-                sb.append(value);
-            } else if (key == 1) {
-                if (value != 1) {
-                    sb.append(value);
-                }
-                sb.append("x");
+            if (map2.containsKey(currentKey)) {
+                val2 = map2.get(currentKey);
+            }
+            int sumValues = val1 + val2;
+            if (sumValues < 0) {
+                znak = " - ";
             } else {
-                if (value != 1) {
-                    sb.append(value);
+                znak = " + ";
+            }
+            if (sumValues != 0) {
+                switch (currentKey) {
+                    case 0:
+//                        s += znak + Math.abs(sumValues);
+                        sb.append(znak).append(Math.abs(sumValues));
+                        break;
+                    case 1:
+//                        s += znak + Math.abs(sumValues) + "x";
+                        sb.append(znak).append(Math.abs(sumValues)).append("x");
+                        break;
+                    default:
+//                        if (s.isEmpty()) {
+                        if (sb.length() == 0) {
+//                            s += Math.abs(sumValues) + "x^" + currentKey;
+                            sb.append(Math.abs(sumValues)).append("x^").append(currentKey);
+                        } else {
+//                            s += znak + Math.abs(sumValues) + "x^" + currentKey;
+                            sb.append(znak).append(Math.abs(sumValues)).append("x^").append(currentKey);
+                        }
                 }
-                sb.append("x^").append(key);
             }
         }
-
-        return sb.toString();
-
+//        System.out.println(sb);
+        return sb;
     }
 }

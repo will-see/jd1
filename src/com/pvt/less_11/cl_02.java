@@ -14,7 +14,7 @@ public class cl_02 {
         map.put("b", "b");
         map.put("c", "c");
         map.put("d", "d");
-        map.put("e", "d");
+        map.put("e", "e");
 
         System.out.println(isUnique(map));
 

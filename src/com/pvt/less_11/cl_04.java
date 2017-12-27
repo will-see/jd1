@@ -32,7 +32,7 @@ public class cl_04 {
             ArrayList<Integer> treeList = new ArrayList<>(set);
             int minValue = treeList.get(min - 1);
             int maxValue = treeList.get(treeList.size() - (max));
-            String minMax = min + "-е минимальное значение " + minValue + ", " + max + "-е миаксимальное значение " + maxValue;
+            String minMax = min + "-е минимальное значение " + minValue + ", " + max + "-е ммаксимальное значение " + maxValue;
             return minMax;
         }
     }
