@@ -15,3 +15,4 @@ public class cl_05 {
         System.out.println(list);
     }
 }
+
