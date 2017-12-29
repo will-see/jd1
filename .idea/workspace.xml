@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1d85a836-9938-4a0d-89e7-d97bda889c17" name="Default" comment="lesson 09">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pvt/less_14/Cl_04.java" afterPath="$PROJECT_DIR$/src/com/pvt/less_14/Cl_04.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/text.txt" afterPath="$PROJECT_DIR$/text.txt" />
     </list>
     <ignored path="PVT_project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/pvt/less_14/Cl_04.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.47004607">
-              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+              <caret line="15" column="80" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -817,7 +816,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1302,7 +1301,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/pvt/less_14/Cl_04.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47004607">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <caret line="15" column="80" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

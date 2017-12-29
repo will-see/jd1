@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
 public class Cl_04 {
     public static void main(String[] args) {
         Pattern p = Pattern.compile("\\+375[0-9]{9}\\b");
-        String s = "tel1 +375291111111 tel2 +375292222222 tel3 +375333333333444";
+        String s = "tel1 +375291111111 tel2 +375292222222 tel3 +3753333333334444";
         System.out.println(s);
         Matcher matcher = p.matcher(s);
         while (matcher.find()) {
