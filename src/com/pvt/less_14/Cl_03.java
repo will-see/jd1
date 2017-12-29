@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
  */
 public class Cl_03 {
     public static void main(String[] args) {
-        String s = "<p id =\"p1\">sdf <p><p\"p1\">";
-        System.out.println(s.replaceAll("<p[^>]>","<p>"));
+        String s = "<p id =\\\"p1\\\">sdf <p><p\\\"p1\\\"> <<p\\\"pwdwdw<1\\\">>>p>><ps>";
+        System.out.println(s.replaceAll("<p[^>].*?>","<p>"));
     }
 }
