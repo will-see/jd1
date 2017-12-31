@@ -9,7 +9,7 @@ import java.io.*;
 public class Cl_01 {
     public static void main(String[] args) {
         try {
-            BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("text.txt")));
+            BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("src/com/pvt/less_15/text.txt")));
 //            BufferedReader reader = new BufferedReader(new FileReader("text.txt"));
             String line;
         while ((line = reader.readLine()) != null) {

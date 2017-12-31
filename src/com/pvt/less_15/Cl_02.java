@@ -6,13 +6,14 @@ import java.util.Arrays;
 
 /**
  * Created by W510 on 29.12.2017.
+ * 2. Задан файл с текстом, найти и вывести в консоль все слова, начинающиеся с гласной буквы.
  */
 public class Cl_02 {
     public static void main(String[] args) {
 
         try {
 //            BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("text.txt")));
-            BufferedReader reader = new BufferedReader(new FileReader("text.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("src/com/pvt/less_15/text.txt"));
             String line;
             ArrayList<String> list = new ArrayList();
             while ((line = reader.readLine()) != null) {

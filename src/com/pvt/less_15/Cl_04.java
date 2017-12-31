@@ -1,9 +1,6 @@
 package com.pvt.less_15;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.Arrays;
+import java.io.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -14,7 +11,7 @@ import java.util.regex.Pattern;
 public class Cl_04 {
     public static void main(String[] args) {
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("text.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("src/com/pvt/less_15/text.txt"));
             String line;
             while ((line = reader.readLine()) != null) {
                 String maxNums ="";
