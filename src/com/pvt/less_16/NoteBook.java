@@ -8,11 +8,18 @@ import java.io.Serializable;
 public class NoteBook extends Computer implements Serializable {
     transient int weight;
     int buttons;
-    TouchPad <Integer> touchPad = new TouchPad<>(buttons);
+
+//    public NoteBook(String name, String cpu, int ram, int hdd, int weight, TouchPad b) {
+//        super(name, cpu, ram, hdd);
+//        this.weight = weight;
+//        this.buttons = buttons;
+//    }
 
     public NoteBook(String name, String cpu, int ram, int hdd, int weight, int buttons) {
         super(name, cpu, ram, hdd);
         this.weight = weight;
         this.buttons = buttons;
     }
+
+    TouchPad <Integer> touchPad = new TouchPad<>(buttons);
 }

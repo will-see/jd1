@@ -16,24 +16,6 @@ public class Cl_01 {
             BufferedWriter writer1 = new BufferedWriter(new FileWriter("src/com/pvt/less_16/testWrBuff_1Mb.db"));
             Writer writer2 = new FileWriter("src/com/pvt/less_16/testWrNobuff_1Mb.db");
 
-            //чтение буффером
-            String buff;
-            StringBuilder sbBuff = new StringBuilder();
-            long timeStartReadingBuff = System.currentTimeMillis();
-            while ((buff = reader1.readLine()) != null) {
-                sbBuff.append(buff);
-            }
-            long timeStopReadingBuff = System.currentTimeMillis();
-            long timeReadingBuff = timeStopReadingBuff - timeStartReadingBuff;
-            System.out.println("timeReadingBuff " + timeReadingBuff);
-
-            //Запись буффером
-            long timeStartWritingBuff = System.currentTimeMillis();
-            writer1.write(sbBuff.toString());
-            long timeStopWritingBuff = System.currentTimeMillis();
-            long timeWritingBuff = timeStopWritingBuff - timeStartWritingBuff;
-            System.out.println("timeWritingBuff " + timeWritingBuff);
-
             //Чтение без буффера
             int noBuff;
             StringBuilder sbNoBuff = new StringBuilder();
@@ -45,12 +27,37 @@ public class Cl_01 {
             long timeReading = timeStopReading - timeStartReading;
             System.out.println("timeReading " + timeReading);
 
+            //чтение буффером
+            String buff;
+            StringBuilder sbBuff = new StringBuilder();
+            long timeStartReadingBuff = System.currentTimeMillis();
+            while ((buff = reader1.readLine()) != null) {
+                sbBuff.append(buff);
+            }
+            long timeStopReadingBuff = System.currentTimeMillis();
+            long timeReadingBuff = timeStopReadingBuff - timeStartReadingBuff;
+            System.out.println("timeReadingBuff " + timeReadingBuff);
+
             //Запись без буффера
             long timeStartWriting = System.currentTimeMillis();
             writer2.write(sbNoBuff.toString());
+
             long timeStopWriting = System.currentTimeMillis();
             long timeWriting = timeStopWriting - timeStartWriting;
             System.out.println("timeWriting " + timeWriting);
+
+            //Запись буффером
+            long timeStartWritingBuff = System.currentTimeMillis();
+            writer1.write(sbBuff.toString());
+
+            long timeStopWritingBuff = System.currentTimeMillis();
+            long timeWritingBuff = timeStopWritingBuff - timeStartWritingBuff;
+            System.out.println("timeWritingBuff " + timeWritingBuff);
+
+            reader1.close();
+            reader2.close();
+            writer1.close();
+            writer2.close();
 
         } catch (IOException e) {
             System.out.println("file not found");
