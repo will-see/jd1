@@ -2,109 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d85a836-9938-4a0d-89e7-d97bda889c17" name="Default" comment="lesson 09">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pvt/less_30/Cl_01.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pvt/less_30/Cl_01_test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pvt/less_30/Message.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pvt/less_30/Message_be.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pvt/less_30/Message_en.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pvt/less_30/Message_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_01/hw_1.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_01/hw_1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_02/class_01.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_02/class_01.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_02/class_02.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_02/class_02.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_02/class_03.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_02/class_03.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_02/class_04.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_02/class_04.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_02/hw_01.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_02/hw_01.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_02/hw_02.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_02/hw_02.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_02/hw_03.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_02/hw_03.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_01.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_01.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_02.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_02.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_03.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_03.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_04.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_04.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_05.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_05.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_06.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_06.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_07.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_07.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_08.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_08.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_09.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_09.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_10.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/class_10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/hm_01.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/hm_01.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/hm_04.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_03/hm_04.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_04/cl_01_time/Test.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_04/cl_01_time/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_04/cl_01_time/TimeRange.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_04/cl_01_time/TimeRange.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_04/cl_02_ATM/ATM.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_04/cl_02_ATM/ATM.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_04/cl_02_ATM/Test.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_04/cl_02_ATM/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_07/Archer.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_07/Archer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_07/BattleGround.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_07/BattleGround.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_07/Enemy.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_07/Enemy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_07/Hero.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_07/Hero.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_07/Mage.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_07/Mage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_07/Mortal.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_07/Mortal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_07/TrainingGround.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_07/TrainingGround.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_07/Warrior.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_07/Warrior.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_08/CalculateSquare.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_08/CalculateSquare.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_08/Circle.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_08/Circle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_08/Priamoygolnik.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_08/Priamoygolnik.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_08/Quad.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_08/Quad.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_08/Shape.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_08/Shape.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_08/ShapeUtils.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_08/ShapeUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_08/Test.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_08/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_08/Triagle90.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_08/Triagle90.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_01/Pair.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_01/Pair.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_01/PairUtil.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_01/PairUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_03/ClassForGenerics.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_03/ClassForGenerics.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_03/InterfaceForGenerics.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_03/InterfaceForGenerics.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_03/Solution.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_03/Solution.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_05/TestTransaction.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_05/TestTransaction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_05/Test_05.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_05/Test_05.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_05/Transaction.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_05/Transaction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_05/TrasactionAnalyzer.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_05/TrasactionAnalyzer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_06/ClassAnalyzer.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_09/cl_06/ClassAnalyzer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_10/Stack.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_10/Stack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_10/cl_01.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_10/cl_01.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_10/cl_02.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_10/cl_02.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_10/cl_03.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_10/cl_03.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_10/cl_04.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_10/cl_04.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_10/cl_05.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_10/cl_05.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_10/cl_06.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_10/cl_06.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_10/cl_07.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_10/cl_07.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_11/cl_01.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_11/cl_01.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_11/cl_02.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_11/cl_02.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_11/cl_03.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_11/cl_03.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_11/cl_04.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_11/cl_04.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_12/DelenieBezOstatkaException.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_12/DelenieBezOstatkaException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_12/DelenieBezOstatkaRuntimeException.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_12/DelenieBezOstatkaRuntimeException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_12/cl_01.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_12/cl_01.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_12/cl_02.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_12/cl_02.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_12/cl_03.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_12/cl_03.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_12/cl_04.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_12/cl_04.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_12/cl_05.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_12/cl_05.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_12/cl_06.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_12/cl_06.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_12/cl_07.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_12/cl_07.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_13/cl_01.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_13/cl_01.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_13/cl_02.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_13/cl_02.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_13/cl_03.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_13/cl_03.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_13/cl_04.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_13/cl_04.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_13/cl_05.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_13/cl_05.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_13/cl_06.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_13/cl_06.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_14/Cl_01.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_14/Cl_01.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_14/Cl_02.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_14/Cl_02.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_14/Cl_03.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_14/Cl_03.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_14/Cl_04.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_14/Cl_04.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_14/Cl_05.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_14/Cl_05.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_15/Cl_01.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_15/Cl_01.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_15/Cl_02.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_15/Cl_02.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_15/Cl_03.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_15/Cl_03.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_15/Cl_04.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_15/Cl_04.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_15/Cl_05.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_15/Cl_05.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_15/Cl_06.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_15/Cl_06.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_15/Cl_07.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_15/Cl_07.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_16/Cl_01.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_16/Cl_01.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_16/Cl_02.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_16/Cl_02.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_16/Cl_03.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_16/Cl_03.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_16/Computer.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_16/Computer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_16/NoteBook.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_16/NoteBook.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_16/TouchPad.class" afterPath="$PROJECT_DIR$/out/production/PVT_project/com/pvt/less_16/TouchPad.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/pvt/less_30/Cl_01_test.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pvt/less_30/Cl_01.java" afterPath="$PROJECT_DIR$/src/com/pvt/less_30/Cl_01.java" />
     </list>
     <ignored path="PVT_project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -144,50 +44,8 @@
       <file leaf-file-name="Cl_01.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/pvt/less_30/Cl_01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41108546">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Message_be.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pvt/less_30/Message_be.properties">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="ResourceBundle">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Message.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pvt/less_30/Message.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Message" pinned="false" current-in-tab="false">
-        <entry file="file://Message">
-          <provider selected="true" editor-type-id="ResourceBundle">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cl_01_test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pvt/less_30/Cl_01_test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.03926097">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -859,7 +717,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -868,7 +726,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24549918" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24549918" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14567527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1231,17 +1089,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_30/Message_en.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pvt/less_30/Message_ru.properties">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -1271,22 +1118,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_30/Cl_01_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pvt/less_30/Message.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/ResourceBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33256352">
+          <caret line="844" column="0" selection-start-line="844" selection-start-column="0" selection-end-line="844" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_30/Message_en.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pvt/less_30/Message_be.properties">
@@ -1300,18 +1156,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/ResourceBundle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33256352">
-          <caret line="844" column="0" selection-start-line="844" selection-start-column="0" selection-end-line="844" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pvt/less_30/Cl_01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41108546">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.03926097">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

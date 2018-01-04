@@ -29,7 +29,6 @@ public class Cl_01 {
                 break;
         }
         ResourceBundle rb = ResourceBundle.getBundle("Message", locale);
-//        ResourceBundle rb = ResourceBundle.getBundle("greetings");
-        System.out.println(rb.getString("greetings"));
+        System.out.println(rb.getString("greet"));
     }
 }
