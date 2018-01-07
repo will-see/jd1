@@ -28,7 +28,7 @@ public class Cl_01 {
                 locale = new Locale("en", "US");
                 break;
         }
-        ResourceBundle rb = ResourceBundle.getBundle("Message", locale);
+        ResourceBundle rb = ResourceBundle.getBundle("com/pvt/less_30/Message", locale);
         System.out.println(rb.getString("greet"));
     }
 }
