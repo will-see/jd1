@@ -21,6 +21,7 @@ public class Cl_04 {
 //                .reduce((p) -> p.append(""));
 //                .collect(Collectors.joining(": ", "<b> ", " </b>"))
 
+
         System.out.println(str);
     }
 }

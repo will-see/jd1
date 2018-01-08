@@ -9,12 +9,12 @@ import java.util.Map;
  */
 public class Cl_03 {
     public static void main(String[] args) {
-        Map<String,Integer> map = new HashMap<>();
-        map.put("aaa",3);
-        map.put("bbbbbbbb",8);
-        map.put("cccc",4);
-        map.put("eeeee",5);
-        map.put("aaaaaa",6);
+        Map<String, Integer> map = new HashMap<>();
+        map.put("aaa", 3);
+        map.put("bbbbbbbb", 8);
+        map.put("cccc", 4);
+        map.put("eeeee", 5);
+        map.put("aaaaaa", 6);
 
 //        int sum = map.entrySet()
 //                .stream()
@@ -22,10 +22,13 @@ public class Cl_03 {
 ////                .map(e-> e.getValue())
 //                .forEach
 
-        map.entrySet()
+        int result = map.entrySet()
                 .stream()
-                .filter( e -> e.getKey().length() < 7)
-                .forEach(e-> System.out.println(e.getValue()));
+                .filter(e -> e.getKey().length() < 7)
+//                .forEach(e -> System.out.println(e.getValue()));
+                .mapToInt(s->s.getValue())
+                .sum();
 
+        System.out.println(result);
     }
 }
