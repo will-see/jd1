@@ -1,7 +1,6 @@
 package com.pvt.less_30;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 /**
  * Created by W510 on 05.01.2018.
@@ -9,7 +8,7 @@ import java.util.Date;
 public class Cl_11_test {
     public static void main(String[] args) {
 
-        LocalDate date = LocalDate.now().with(new MyAdjuster());
+        LocalDate date = LocalDate.now().with(new MyAdjuster11());
         System.out.println(date);
     }
 }

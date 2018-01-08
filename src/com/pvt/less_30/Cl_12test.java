@@ -9,6 +9,6 @@ public class Cl_12test {
     public static void main(String[] args) {
 
         LocalDate date = LocalDate.of(2018,07,24);
-        System.out.println(date.with(new NewTempAdj()));
+        System.out.println(date.with(new MyAdjuster12()));
     }
 }
