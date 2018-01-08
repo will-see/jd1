@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d85a836-9938-4a0d-89e7-d97bda889c17" name="Default" comment="lesson 09">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/pvt/less_30/MyAdjuster.java" afterPath="$PROJECT_DIR$/src/com/pvt/less_30/MyAdjuster11.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/pvt/less_30/NewTempAdj.java" afterPath="$PROJECT_DIR$/src/com/pvt/less_30/MyAdjuster12.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pvt/less_30/Cl_11_test.java" afterPath="$PROJECT_DIR$/src/com/pvt/less_30/Cl_11_test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pvt/less_30/Cl_12test.java" afterPath="$PROJECT_DIR$/src/com/pvt/less_30/Cl_12test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pvt/less_30/MyAdjuster12.java" afterPath="$PROJECT_DIR$/src/com/pvt/less_30/MyAdjuster12.java" />
     </list>
     <ignored path="PVT_project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,9 +43,21 @@
       <file leaf-file-name="Cl_12test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/pvt/less_30/Cl_12test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5483871">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.39170507">
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyAdjuster12.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pvt/less_30/MyAdjuster12.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/pvt/less_14/Cl_03.java" />
         <option value="$PROJECT_DIR$/src/com/pvt/less_14/Cl_05.java" />
         <option value="$PROJECT_DIR$/src/com/pvt/less_14/Cl_04.java" />
         <option value="$PROJECT_DIR$/src/com/pvt/less_15/Cl_07.java" />
@@ -124,6 +133,7 @@
         <option value="$PROJECT_DIR$/src/com/pvt/less_17/Cl_04.java" />
         <option value="$PROJECT_DIR$/src/com/pvt/less_17/Cl_03.java" />
         <option value="$PROJECT_DIR$/src/com/pvt/less_17/Cl_05.java" />
+        <option value="$PROJECT_DIR$/src/com/pvt/less_30/MyAdjuster12.java" />
         <option value="$PROJECT_DIR$/src/com/pvt/less_30/Cl_12test.java" />
       </list>
     </option>
@@ -699,7 +709,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -709,7 +719,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24386252" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24386252" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21709532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1070,16 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_30/MyAdjuster12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6129808">
-          <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pvt/less_17/Cl_05.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2235577">
@@ -1169,10 +1169,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_30/MyAdjuster12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pvt/less_30/Cl_12test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5483871">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.39170507">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
           <folding />
         </state>
       </provider>

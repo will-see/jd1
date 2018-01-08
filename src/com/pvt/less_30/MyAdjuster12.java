@@ -14,9 +14,9 @@ public class MyAdjuster12 implements TemporalAdjuster {
     public Temporal adjustInto(Temporal temporal) {
         LocalDate date = LocalDate.from(temporal);
         if (LocalDate.from(temporal).isAfter(LocalDate.ofYearDay(date.getYear(),183))){
-            return temporal.with(TemporalAdjusters.firstDayOfYear());
-        } else {
             return temporal.plus(1, ChronoUnit.YEARS).with(TemporalAdjusters.firstDayOfYear());
+        } else {
+            return temporal.with(TemporalAdjusters.firstDayOfYear());
         }
     }
 }

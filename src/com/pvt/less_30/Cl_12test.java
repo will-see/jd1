@@ -8,7 +8,7 @@ import java.time.LocalDate;
 public class Cl_12test {
     public static void main(String[] args) {
 
-        LocalDate date = LocalDate.of(2018,07,24);
+        LocalDate date = LocalDate.of(2018,06,5);
         System.out.println(date.with(new MyAdjuster12()));
     }
 }
