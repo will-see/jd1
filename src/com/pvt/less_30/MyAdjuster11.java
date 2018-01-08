@@ -8,7 +8,7 @@ import java.time.temporal.TemporalAdjuster;
 /**
  * Created by W510 on 05.01.2018.
  */
-public class MyAdjuster implements TemporalAdjuster {
+public class MyAdjuster11 implements TemporalAdjuster {
 
 //    @Override
 //    public Temporal adjustInto(Temporal temporal) {

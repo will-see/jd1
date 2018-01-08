@@ -9,7 +9,7 @@ import java.time.temporal.Temporal;
 import java.time.temporal.TemporalAdjuster;
 import java.time.temporal.TemporalAdjusters;
 
-public class NewTempAdj implements TemporalAdjuster {
+public class MyAdjuster12 implements TemporalAdjuster {
     @Override
     public Temporal adjustInto(Temporal temporal) {
         LocalDate date = LocalDate.from(temporal);
