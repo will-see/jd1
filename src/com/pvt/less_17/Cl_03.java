@@ -16,12 +16,6 @@ public class Cl_03 {
         map.put("eeeee", 5);
         map.put("aaaaaa", 6);
 
-//        int sum = map.entrySet()
-//                .stream()
-//                .filter( e -> e.getKey().length() < 7)
-////                .map(e-> e.getValue())
-//                .forEach
-
         int result = map.entrySet()
                 .stream()
                 .filter(e -> e.getKey().length() < 7)

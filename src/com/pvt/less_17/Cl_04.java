@@ -19,7 +19,7 @@ public class Cl_04 {
                 .map(e -> e.toString())
                 .reduce("", String::concat);
 //                .reduce((p) -> p.append(""));
-//                .collect(Collectors.joining(": ", "<b> ", " </b>"))
+//                .collect(Collectors.joining());
 
 
         System.out.println(str);
