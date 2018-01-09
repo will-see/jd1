@@ -21,10 +21,10 @@ public class Cl_03 {
             while ((line = reader.readLine()) != null) {
                 list.addAll(Arrays.asList(line.split("[\\s.,!?]+")));
             }
-//            list.add("mama");
-//            list.add("amlet");
-//            list.add("tort");
-//            list.add("moloko");
+//            list.partsAdd("mama");
+//            list.partsAdd("amlet");
+//            list.partsAdd("tort");
+//            list.partsAdd("moloko");
             if (list.size() > 2) {
 
                 System.out.println(list);

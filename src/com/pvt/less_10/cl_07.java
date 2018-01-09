@@ -19,7 +19,7 @@ public class cl_07 {
         ArrayList<Integer> list2 = new ArrayList<>(list);
 //        Set<Integer> set = new TreeSet<>();
 //        for(int i=0; i<list2.size();i++){
-//            set.add(list2.get(i));
+//            set.partsAdd(list2.get(i));
 //        }
 //        System.out.println(set);
         int i = 0;
