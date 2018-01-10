@@ -5,9 +5,11 @@ import java.util.ArrayList;
 /**
  * Created by W510 on 09.01.2018.
  */
-public class Svalka implements Runnable{
+public class Svalka {
 
+    private boolean allowed = true;
     ArrayList<Parts> parts = new ArrayList<>();
+    int today = 0;
 
     public void partsAdd(int count) {
         for (int i = 0; i < count; i++) {
@@ -54,19 +56,57 @@ public class Svalka implements Runnable{
 //        System.out.println(parts);
     }
 
-    public void add20() {
-        partsAdd(20);
+
+    public synchronized void nexdDay() {
+//        for (int i = 1; i <= 10; i++) {
+        if (today<100) {
+            today++;
+            allowed = true;
+            notifyAll();
+            int toAdd = (int) (Math.random() * 4 + 1);
+            partsAdd(toAdd);
+            System.out.println("added " + toAdd);
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+//            try {
+//                wait(100);
+//            } catch (InterruptedException e) {
+//            }
+            System.out.println("Next Day");
+        }
     }
 
-    public void run() {
-        for (int i = 1 ; i <= 100 ; i++) {
-            int toAdd = (int)(Math.random()*4+1);
-            partsAdd(toAdd);
-            System.out.println("added " +toAdd);
-            try {
-                wait(100);
-            } catch (InterruptedException e) {
+    public synchronized void getParts(String who, int howMuch) {
+        ArrayList<Parts> workerList = new ArrayList<>();
+        int got = 0;
+        while (allowed) {
+            if (parts.size() > howMuch) {
+                for (int i = 0; i < howMuch; i++) {
+                    int partNumber = (int) (Math.random() * parts.size());
+                    workerList.add(parts.get(partNumber));
+                    parts.remove(partNumber);
+                    got = i + 1;
+                    allowed = false;
+                }
+            } else {
+                if (parts.size() > 0) {
+                    for (int i = 0; i < parts.size(); i++) {
+                        workerList.add(parts.get(0));
+                        parts.remove(0);
+                        got = i + 1;
+                        allowed = false;
+                    }
+                }
             }
+        }
+        System.out.println(who + " get " + got + " parts");
+        try {
+            wait();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
     }
 
