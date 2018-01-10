@@ -8,8 +8,9 @@ import java.util.ArrayList;
 public class Svalka {
 
     private boolean allowed = true;
-    ArrayList<Parts> parts = new ArrayList<>();
+    int days = 10;
     int today = 0;
+    ArrayList<Parts> parts = new ArrayList<>();
 
     public void partsAdd(int count) {
         for (int i = 0; i < count; i++) {
@@ -58,56 +59,48 @@ public class Svalka {
 
 
     public synchronized void nexdDay() {
-//        for (int i = 1; i <= 10; i++) {
-        if (today<100) {
-            today++;
-            allowed = true;
-            notifyAll();
-            int toAdd = (int) (Math.random() * 4 + 1);
-            partsAdd(toAdd);
-            System.out.println("added " + toAdd);
-            try {
-                Thread.sleep(100);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-//            try {
-//                wait(100);
-//            } catch (InterruptedException e) {
-//            }
-            System.out.println("Next Day");
-        }
-    }
-
-    public synchronized void getParts(String who, int howMuch) {
-        ArrayList<Parts> workerList = new ArrayList<>();
-        int got = 0;
-        while (allowed) {
-            if (parts.size() > howMuch) {
-                for (int i = 0; i < howMuch; i++) {
-                    int partNumber = (int) (Math.random() * parts.size());
-                    workerList.add(parts.get(partNumber));
-                    parts.remove(partNumber);
-                    got = i + 1;
-                    allowed = false;
-                }
-            } else {
-                if (parts.size() > 0) {
-                    for (int i = 0; i < parts.size(); i++) {
-                        workerList.add(parts.get(0));
-                        parts.remove(0);
-                        got = i + 1;
-                        allowed = false;
-                    }
-                }
-            }
-        }
-        System.out.println(who + " get " + got + " parts");
+        today++;
         try {
-            wait();
+            wait(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        int toAdd = (int) (Math.random() * 4 + 1);
+        partsAdd(toAdd);
+        System.out.println("added " + toAdd);
+//        System.out.println(parts);
+        System.out.println("--------------- Next Day " + today + "----------------------");
+        notifyAll();
     }
 
+    public synchronized void getParts(String who) {
+        ArrayList<Parts> workerList = new ArrayList<>();
+        for (int i = 0; i < days; i++) {
+            System.out.println("size :" + parts.size());
+            int get = (int) (Math.random() * 4 + 1);
+            if (get < parts.size()) {
+                for (int j = 0; j < get; j++) {
+                    int partNumber = (int) (Math.random() * parts.size());
+                    workerList.add(parts.get(partNumber));
+                    parts.remove(partNumber);
+//            got = howMuch;
+                }
+                System.out.println(who + " get " + get + " parts");
+            } else {
+                System.out.println(who + " get " + parts.size() + " parts");
+                for (int j = 0; j < parts.size(); j++) {
+                    int partNumber = (int) (Math.random() * parts.size());
+                    workerList.add(parts.get(0));
+                    parts.remove(0);
+                }
+            }
+            try {
+                wait();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+//            System.out.println("size :" + parts.size());
+        }
+//        System.out.println(parts);
+    }
 }

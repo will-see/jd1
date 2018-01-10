@@ -13,10 +13,13 @@ public class Producer implements Runnable {
     //создаем 20 элементов
     public void produce20() {
         svalka.partsAdd(20);
+        System.out.println(svalka.parts);
     }
 
     @Override
     public void run() {
-        for (int i = 1 ; i <= 10 ; i++) svalka.nexdDay();
+        produce20();
+        for (int i = 1 ; i <= svalka.days ; i++) svalka.nexdDay();
+//        svalka.nexdDay();
     }
 }

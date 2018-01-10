@@ -8,10 +8,10 @@ public class Test {
         Svalka svalka = new Svalka();
         Producer producer = new Producer(svalka);
         new Thread(producer).start();
-        Worker worker1 = new Worker(svalka);
+        Worker worker1 = new Worker(svalka,"w1");
+        Worker worker2 = new Worker(svalka,"w2");
         new Thread(worker1).start();
-//        svalka.add20();
-//        new Thread(svalka).start();
-//        svalka.run();
+        new Thread(worker2).start();
     }
 }
+

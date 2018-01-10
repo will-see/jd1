@@ -8,25 +8,25 @@ import java.util.ArrayList;
 public class Worker implements Runnable {
 
     Svalka svalka;
+    String name;
 
-    public Worker(Svalka svalka) {
+    public Worker(Svalka svalka, String name) {
         this.svalka = svalka;
+        this.name = name;
     }
 
-//    ArrayList<Parts> workerList;
-
     public void get() {
-        int howMuch = (int) (Math.random() * 4);
-        svalka.getParts("worker", howMuch);
-        try {
-            Thread.sleep(10);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        int howMuch = (int) (Math.random() * 4+1);
+        svalka.getParts(name);
     }
 
     @Override
     public void run() {
+        try {
+            Thread.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         get();
     }
 }
