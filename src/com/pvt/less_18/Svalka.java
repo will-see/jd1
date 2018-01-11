@@ -7,8 +7,8 @@ import java.util.ArrayList;
  */
 public class Svalka {
 
-    private boolean allowed = true;
-    int days = 10;
+    //    private boolean allowed = true;
+    int days = 100;
     int today = 0;
     ArrayList<Parts> parts = new ArrayList<>();
 
@@ -73,7 +73,7 @@ public class Svalka {
         notifyAll();
     }
 
-    public synchronized void getParts(String who) {
+    public synchronized void getParts(String who, ArrayList<Parts> crazyList) {
         ArrayList<Parts> workerList = new ArrayList<>();
         for (int i = 0; i < days; i++) {
             System.out.println("size :" + parts.size());
@@ -81,25 +81,25 @@ public class Svalka {
             if (get < parts.size()) {
                 for (int j = 0; j < get; j++) {
                     int partNumber = (int) (Math.random() * parts.size());
-                    workerList.add(parts.get(partNumber));
+//                    workerList.add(parts.get(partNumber));
+                    crazyList.add(parts.get(partNumber));
                     parts.remove(partNumber);
-//            got = howMuch;
                 }
                 System.out.println(who + " get " + get + " parts");
             } else {
                 System.out.println(who + " get " + parts.size() + " parts");
                 for (int j = 0; j < parts.size(); j++) {
-                    int partNumber = (int) (Math.random() * parts.size());
-                    workerList.add(parts.get(0));
+//                    workerList.add(parts.get(0));
+                    crazyList.add(parts.get(0));
                     parts.remove(0);
                 }
             }
+
             try {
                 wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-//            System.out.println("size :" + parts.size());
         }
 //        System.out.println(parts);
     }

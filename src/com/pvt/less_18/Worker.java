@@ -9,6 +9,7 @@ public class Worker implements Runnable {
 
     Svalka svalka;
     String name;
+    ArrayList<Parts> crazyList = new ArrayList<>();
 
     public Worker(Svalka svalka, String name) {
         this.svalka = svalka;
@@ -16,8 +17,7 @@ public class Worker implements Runnable {
     }
 
     public void get() {
-        int howMuch = (int) (Math.random() * 4+1);
-        svalka.getParts(name);
+        svalka.getParts(name, crazyList);
     }
 
     @Override
@@ -28,5 +28,12 @@ public class Worker implements Runnable {
             e.printStackTrace();
         }
         get();
+//        for (int i=0;i<svalka.temporalList.size();i++){
+//            crazyList.add(svalka.temporalList.get(i));
+//        }
+//        svalka.temporalList.clear();
+////        svalka.workerList.clear();
+//        System.out.println(svalka.workerList.size());
+        System.out.println(crazyList.size());
     }
 }
