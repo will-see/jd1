@@ -34,6 +34,8 @@ public class Worker implements Runnable {
 //        svalka.temporalList.clear();
 ////        svalka.workerList.clear();
 //        System.out.println(svalka.workerList.size());
-        System.out.println(crazyList.size());
+        System.out.println(name + " собрано деталей " + crazyList.size());
+//        crazyList
+        System.out.println(name + " собрано роботов " + crazyList.size());
     }
 }
