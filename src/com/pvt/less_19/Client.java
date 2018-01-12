@@ -26,8 +26,8 @@ public class Client implements Runnable {
             e.printStackTrace();
         }
         shop.enterShop(name);
-//        shopping();
-        shop.exitShop(name,shoppingBasket);
+        shop.shopping(name,shoppingBasket);
+        shop.finishShopping(name,shoppingBasket);
     }
 }
 
