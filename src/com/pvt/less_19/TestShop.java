@@ -17,5 +17,15 @@ public class TestShop {
     new Thread(cl4).start();
     Client cl5 = new Client(shop, "Клиент 5");
     new Thread(cl5).start();
+    Client cl6 = new Client(shop, "Клиент 6");
+    new Thread(cl6).start();
+    Client cl7 = new Client(shop, "Клиент 7");
+    new Thread(cl7).start();
+    Client cl8 = new Client(shop, "Клиент 8");
+    new Thread(cl8).start();
+    Client cl9 = new Client(shop, "Клиент 9");
+    new Thread(cl9).start();
+    Client cl10 = new Client(shop, "Клиент 10");
+    new Thread(cl10).start();
     }
 }
