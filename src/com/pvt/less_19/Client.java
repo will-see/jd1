@@ -1,6 +1,9 @@
 package com.pvt.less_19;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.concurrent.Semaphore;
 
 /**
@@ -10,8 +13,9 @@ public class Client implements Runnable {
 
     Shop shop;
     String name;
-    ArrayList<String> shoppingBasket = new ArrayList<>();
-
+    Map<String,Integer> mapSoppingBasket = new HashMap<>();
+    int casseNo;
+    List<Item> listItem = new ArrayList<>();
 
     public Client(Shop shop, String name) {
         this.shop = shop;
@@ -19,18 +23,28 @@ public class Client implements Runnable {
 //        this.shoppingBasket = shoppingBasket;
     }
 
-    //    public Shop getShop() {
-//        return shop;
-//    }
-//
-//    public String getName() {
-//        return name;
-//    }
-//
-//    public ArrayList<String> getShoppingBasket() {
-//        return shoppingBasket;
-//    }
+    public Shop getShop() {
+        return shop;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Map<String, Integer> getMapSoppingBasket() {
+        return mapSoppingBasket;
+    }
+
+    public List<Item> getListItem() {
+        return listItem;
+    }
+
+    public int getCasseNo() {
+        return casseNo;
+    }
+
     private static final Semaphore SEMAPHORE = new Semaphore(3, true);
+    private static final boolean[] CASH_POINT = new boolean[3];
 
     @Override
     public void run() {
@@ -40,14 +54,15 @@ public class Client implements Runnable {
             e.printStackTrace();
         }
         shop.enterShop(name);
-        shop.shopping(name, shoppingBasket);
+        shop.shopping(name, mapSoppingBasket, listItem);
 
-        if (shoppingBasket.size() == 0) {
+//        if (shoppingBasket.size() == 0) {
+        if (mapSoppingBasket.size() == 0) {
             shop.exitShop(name);
 
         } else {
 //                shop.paying(name,shoppingBasket);
-                paying();
+            paying();
 //            try {
 //                System.out.println(name + " стал в очередь");
 //                SEMAPHORE.acquire();
@@ -57,11 +72,11 @@ public class Client implements Runnable {
 //            } catch (InterruptedException e) {
 //                e.printStackTrace();
 //            }
-
-            SEMAPHORE.release();
+//
+//            SEMAPHORE.release();
 //            shop.finishShopping(name, shoppingBasket);
 
-            shop.printReciept(name);
+            shop.printReciept(name, mapSoppingBasket, casseNo, listItem);
 //            shop.exitShop(name);
         }
     }
@@ -70,9 +85,27 @@ public class Client implements Runnable {
         try {
             System.out.println(name + " стал в очередь");
             SEMAPHORE.acquire();
-            System.out.println(name + " расчитывается в кассе");
-            int timeWaiting = shoppingBasket.size() * 4000;
+
+            int cashPoint = -1;
+
+            //Ищем свободную кассу
+            synchronized (CASH_POINT) {
+                for (int i = 0; i < 3; i++)
+                    if (!CASH_POINT[i]) {      //Если касса свободно
+                        CASH_POINT[i] = true;  //переходим в кассу
+                        cashPoint = i;         //Наличие свободного места, гарантирует семафор
+                        casseNo=i+1;
+                        System.out.println(name + " расчитывается в кассе № " + i+1);
+                        break;
+                    }
+            }
+//            System.out.println(name + " расчитывается в кассе");
+            int timeWaiting = listItem.size() * 1000;
             Thread.sleep(timeWaiting);
+            synchronized (CASH_POINT) {
+                CASH_POINT[cashPoint] = false;//Освобождаем кассу
+            }
+            SEMAPHORE.release();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

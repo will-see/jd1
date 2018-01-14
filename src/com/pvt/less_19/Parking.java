@@ -7,10 +7,10 @@ public class Parking {
     private static final boolean[] PARKING_PLACES = new boolean[5];
     //Устанавливаем флаг "справедливый", в таком случае метод
     //aсquire() будет раздавать разрешения в порядке очереди
-    private static final Semaphore SEMAPHORE = new Semaphore(1, true);
+    private static final Semaphore SEMAPHORE = new Semaphore(3, true);
 
     public static void main(String[] args) throws InterruptedException {
-        for (int i = 1; i <= 3; i++) {
+        for (int i = 1; i <= 5; i++) {
             new Thread(new Car(i)).start();
             Thread.sleep(100);
         }
@@ -36,7 +36,7 @@ public class Parking {
 
                 //Ищем свободное место и паркуемся
                 synchronized (PARKING_PLACES){
-                    for (int i = 0; i < 2; i++)
+                    for (int i = 0; i < 3; i++)
                         if (!PARKING_PLACES[i]) {      //Если место свободно
                             PARKING_PLACES[i] = true;  //занимаем его
                             parkingNumber = i;         //Наличие свободного места, гарантирует семафор
