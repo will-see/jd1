@@ -16,6 +16,7 @@ public class Client implements Runnable {
     Map<String,Integer> mapSoppingBasket = new HashMap<>();
     int casseNo;
     List<Item> listItem = new ArrayList<>();
+    boolean basketIsEmpty=true;
 
     public Client(Shop shop, String name) {
         this.shop = shop;
@@ -54,14 +55,13 @@ public class Client implements Runnable {
             e.printStackTrace();
         }
         shop.enterShop(name);
-        shop.shopping(name, mapSoppingBasket, listItem);
+        shop.shopping(this);
 
-//        if (shoppingBasket.size() == 0) {
         if (mapSoppingBasket.size() == 0) {
+//        if (basketIsEmpty==true) {
             shop.exitShop(name);
 
         } else {
-//                shop.paying(name,shoppingBasket);
             paying();
 //            try {
 //                System.out.println(name + " стал в очередь");

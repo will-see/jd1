@@ -32,27 +32,27 @@ public class Shop {
         System.out.println(" <===== " + who + " пришел в магаз");
     }
 
-    public void shopping(String who,Map<String, Integer> mapShoppingBasket, List<Item> listItem) {
-        System.out.println(who + " совершает покупки, думает, выбирает");
+    public void shopping(Client client) {
+        System.out.println(client.getName() + " совершает покупки, думает, выбирает");
         int countKindProducts = ((int) (Math.random() * 12));
         if (countKindProducts > 0) {
             int nO = 0;
             for (int getKindProducts = 0; getKindProducts < countKindProducts; getKindProducts++) {
                 nO++;
                 int tempNumber = ((int) (Math.random() * 11));
-                while (!mapShoppingBasket.containsKey(goodsList.get(tempNumber).getName())) {
-                    getPerchases(who, tempNumber, mapShoppingBasket, listItem, nO);
+                while (!client.getMapSoppingBasket().containsKey(goodsList.get(tempNumber).getName())) {
+                    getPerchases(client,tempNumber, nO);
                 }
             }
         }
     }
 
-    private synchronized void getPerchases(String who, int tempNumber, Map<String, Integer> mapShoppingBasket, List<Item> listItem, int nO) {
+    private synchronized void getPerchases(Client client, int tempNumber, int nO) {
         int countPcsProducts = ((int) (Math.random() * 20));
         Item item = new Item(nO, goodsList.get(tempNumber), countPcsProducts, goodsList.get(tempNumber).getPrice(), goodsList.get(tempNumber).getDiscount(), countPcsProducts * goodsList.get(tempNumber).getPrice() * (1 - goodsList.get(tempNumber).getDiscount()));
-        listItem.add(item);
-        mapShoppingBasket.put((goodsList.get(tempNumber).getName()), countPcsProducts);
-        System.out.println(who + " положил в корзину " + (goodsList.get(tempNumber)).getName() + " - " + countPcsProducts + " шт.");
+        client.getListItem().add(item);
+        client.getMapSoppingBasket().put((goodsList.get(tempNumber).getName()), countPcsProducts);
+        System.out.println(client.getName() + " положил в корзину " + (goodsList.get(tempNumber)).getName() + " - " + countPcsProducts + " шт.");
     }
 
 
