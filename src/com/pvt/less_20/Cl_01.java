@@ -9,7 +9,6 @@ import java.util.concurrent.TimeUnit;
  * Created by W510 on 15.01.2018.
  */
 public class Cl_01 {
-    private static volatile int id = 1;
 
     static volatile boolean enable = true;
 
