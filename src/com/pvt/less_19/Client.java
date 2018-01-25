@@ -95,7 +95,7 @@ public class Client implements Runnable {
                         CASH_POINT[i] = true;  //переходим в кассу
                         cashPoint = i;         //Наличие свободного места, гарантирует семафор
                         casseNo=i+1;
-                        System.out.println(name + " расчитывается в кассе № " + i+1);
+                        System.out.println(name + " расчитывается в кассе № " + i++);
                         break;
                     }
             }

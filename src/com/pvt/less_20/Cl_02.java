@@ -18,30 +18,30 @@ public class Cl_02 {
         for (long i = 0; i < 1000000; i++) {
             list.add((int) (Math.random() * 300));
         }
-//        long timeStart = System.currentTimeMillis();
-//        int maxValue = list.stream()
-//                .mapToInt((x) -> x)
-//                .max()
-//                .getAsInt();
-//        long timeEnd = System.currentTimeMillis();
-//        long timeDelta = timeEnd - timeStart;
-//        System.out.println("max:" + maxValue + " найдено за время:" + timeDelta);
-
-        maxValue = 0;
-        ExecutorService service = Executors.newFixedThreadPool(10);
         long timeStart = System.currentTimeMillis();
+        int maxValue = list.stream()
+                .mapToInt((x) -> x)
+                .max()
+                .getAsInt();
+        long timeEnd = System.currentTimeMillis();
+        long timeDelta = timeEnd - timeStart;
+        System.out.println("max:" + maxValue + " найдено за время:" + timeDelta);
 
-        service.submit(new Runnable() {
-            public void run() {
-                maxValue = list.stream()
-                        .mapToInt((x) -> x)
-                        .max()
-                        .getAsInt();
-                long timeEnd = System.currentTimeMillis();
-                long timeDelta = timeEnd - timeStart;
-                System.out.println("max:" + maxValue + " найдено за время:" + timeDelta);
-                service.shutdown();
-            }
-        });
+//        maxValue = 0;
+//        ExecutorService service = Executors.newFixedThreadPool(10);
+//        long timeStart = System.currentTimeMillis();
+//
+//        service.submit(new Runnable() {
+//            public void run() {
+//                maxValue = list.stream()
+//                        .mapToInt((x) -> x)
+//                        .max()
+//                        .getAsInt();
+//                long timeEnd = System.currentTimeMillis();
+//                long timeDelta = timeEnd - timeStart;
+//                System.out.println("max:" + maxValue + " найдено за время:" + timeDelta);
+//                service.shutdown();
+//            }
+//        });
     }
 }
