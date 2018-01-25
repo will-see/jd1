@@ -25,9 +25,8 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="a200bb4b-2a0e-431f-8111-74045e7af1bd">
-        <schema name="books" object-types="function, procedure, table, view" />
-        <schema name="countries" object-types="column, function, procedure, table, view" />
-        <schema name="mysql" object-types="table" />
+        <schema name="countries" object-types="column, constraint, function, index, procedure, table, dataset trigger, view" />
+        <schema name="mysql" object-types="function, table, view" />
         <schema name="world" object-types="table" />
       </connection>
     </loaded-nodes>
