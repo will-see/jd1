@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d85a836-9938-4a0d-89e7-d97bda889c17" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pvt/less_24/ConnectionManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pvt/less_24/properties" />
+    <list default="true" id="1d85a836-9938-4a0d-89e7-d97bda889c17" name="Default" comment="less_24 continue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/pvt/less_22/script1.sql" afterPath="$PROJECT_DIR$/src/com/pvt/less_22/script1.sql" />
-      <change beforePath="$PROJECT_DIR$/src/com/pvt/less_22/script2.sql" afterPath="$PROJECT_DIR$/src/com/pvt/less_22/script2.sql" />
     </list>
     <ignored path="PVT_project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,8 +57,8 @@
       <file leaf-file-name="script1.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/pvt/less_22/script1.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="95">
+              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -226,7 +222,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1" />
     <option name="y" value="1" />
     <option name="width" value="1364" />
@@ -258,11 +254,6 @@
             <path>
               <item name="PVT_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="PVT_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PVT_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PVT_project" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PVT_project" type="b2602c69:ProjectViewProjectNode" />
@@ -717,7 +708,7 @@
       <updated>1511664621639</updated>
       <workItem from="1516910643108" duration="1864000" />
       <workItem from="1516912830146" duration="397000" />
-      <workItem from="1516920824004" duration="1519000" />
+      <workItem from="1516920824004" duration="1658000" />
     </task>
     <task id="LOCAL-00001" summary="less_22 started">
       <created>1516911668325</created>
@@ -726,15 +717,21 @@
       <option name="project" value="LOCAL" />
       <updated>1516911668325</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="less_24 continue">
+      <created>1516982797779</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516982797780</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10534000" />
+    <option name="totallyTimeSpent" value="10673000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -748,7 +745,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16565809" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16565809" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22541603" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -821,7 +818,8 @@
     <MESSAGE value="less_19 done" />
     <MESSAGE value="less_20 done" />
     <MESSAGE value="less_22 started" />
-    <option name="LAST_COMMIT_MESSAGE" value="less_22 started" />
+    <MESSAGE value="less_24 continue" />
+    <option name="LAST_COMMIT_MESSAGE" value="less_24 continue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1177,8 +1175,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pvt/less_22/script1.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="95">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding />
         </state>
       </provider>
