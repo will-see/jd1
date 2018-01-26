@@ -39,6 +39,6 @@ select sum(peoples) from (select *from countries order by area LIMIT 5) as sum;
 update countries set language = 'brazylian' where language='brazyl';
 
 # 7.	Написать запрос, удаляющий страну с наибольшим населением.
-select max(peoples) from countries;
+# select max(peoples) from countries;
 # delete from countries where peoples = (select max(peoples) from countries);
 DELETE FROM countries WHERE peoples=(SELECT size from (SELECT MAX(peoples) as size FROM countries) as maxC);

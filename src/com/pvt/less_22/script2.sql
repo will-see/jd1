@@ -45,5 +45,12 @@ INSERT INTO books (name, ganr, year, id_author) VALUES ('name10', 'ganr10', '001
 SELECT *FROM authors;
 SELECT *FROM books;
 
-# 4.	Написать запрос, выбирающий: название книги и имя автора, отсортированные по году издания книги в возрастающем порядке.
-SELECT books.name, authors.first_name FROM books JOIN authors a ON books.id_author = a.id_author;
+
+# 4. Написать запрос, выбирающий: название книги и имя автора, отсортированные по году издания книги в возрастающем порядке.
+SELECT b.name, a.first_name FROM books b JOIN authors a ON b.id_author = a.id_author order by year;
+SELECT b.name, a.first_name FROM books b JOIN authors a ON b.id_author = a.id_author order by year DESC;
+
+# 5. Написать запрос, выбирающий количество книг у заданного автора.
+SELECT b.name, a.first_name FROM books b JOIN authors a ON b.id_author = a.id_author WHERE a.id_author=1;
+SELECT count(name) AS books_count FROM books b JOIN authors a ON b.id_author = a.id_author WHERE a.second_name = 'pushkin';
+
