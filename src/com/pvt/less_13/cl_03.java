@@ -1,6 +1,6 @@
 package com.pvt.less_13;
 
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
 
 /**
  * Created by W510 on 27.12.2017.
