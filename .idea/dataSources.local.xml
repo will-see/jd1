@@ -9,7 +9,7 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <introspection-schemas>*:books,countries,temp</introspection-schemas>
+      <introspection-schemas>*:books,books23,countries,temp</introspection-schemas>
     </data-source>
   </component>
 </project>
