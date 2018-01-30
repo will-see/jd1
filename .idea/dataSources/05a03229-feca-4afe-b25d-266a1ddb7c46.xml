@@ -10,6 +10,7 @@
       <Collation>utf8_general_ci</Collation>
     </schema>
     <schema id="3" parent="1" name="books23">
+      <Current>1</Current>
       <Visible>1</Visible>
       <Collation>utf8_general_ci</Collation>
     </schema>
@@ -1040,193 +1041,205 @@
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="257" parent="236" name="date_birth">
+    <column id="257" parent="236" name="second_name">
       <Position>3</Position>
-      <DataType>int(20)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="258" parent="236" name="country">
-      <Position>4</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="259" parent="236" name="PRIMARY">
+    <column id="258" parent="236" name="date_birth">
+      <Position>4</Position>
+      <DataType>int(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="259" parent="236" name="country">
+      <Position>5</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="260" parent="236" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id_author</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="260" parent="237" name="id_book">
+    <column id="261" parent="237" name="id_book">
       <Position>1</Position>
       <DataType>int(10)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="261" parent="237" name="name">
+    <column id="262" parent="237" name="name">
       <Position>2</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="262" parent="237" name="ganr">
+    <column id="263" parent="237" name="ganr">
       <Position>3</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="263" parent="237" name="pages">
+    <column id="264" parent="237" name="pages">
       <Position>4</Position>
       <DataType>int(4)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="264" parent="237" name="id_author">
+    <column id="265" parent="237" name="year">
       <Position>5</Position>
+      <DataType>int(4)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="266" parent="237" name="id_author">
+      <Position>6</Position>
       <DataType>int(10)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="265" parent="237" name="id_author">
+    <index id="267" parent="237" name="id_author">
       <ColNames>id_author</ColNames>
     </index>
-    <key id="266" parent="237" name="PRIMARY">
+    <key id="268" parent="237" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id_book</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="267" parent="237" name="books23_ibfk_1">
+    <foreign-key id="269" parent="237" name="books23_ibfk_1">
       <ColNames>id_author</ColNames>
       <RefSchemaName>books23</RefSchemaName>
       <RefTableName>authors23</RefTableName>
       <RefColNames>id_author</RefColNames>
     </foreign-key>
-    <column id="268" parent="238" name="country">
+    <column id="270" parent="238" name="country">
       <Position>1</Position>
       <DataType>varchar(20)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="269" parent="238" name="peoples">
+    <column id="271" parent="238" name="peoples">
       <Position>2</Position>
       <DataType>float|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="270" parent="238" name="area">
+    <column id="272" parent="238" name="area">
       <Position>3</Position>
       <DataType>float|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="271" parent="238" name="language">
+    <column id="273" parent="238" name="language">
       <Position>4</Position>
       <DataType>varchar(20)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="272" parent="239" name="id_post">
+    <column id="274" parent="239" name="id_post">
       <Position>1</Position>
       <DataType>int(10)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="273" parent="239" name="message">
+    <column id="275" parent="239" name="message">
       <Position>2</Position>
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="274" parent="239" name="id_author">
+    <column id="276" parent="239" name="id_author">
       <Position>3</Position>
       <DataType>int(10)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="275" parent="239" name="id_topic">
+    <column id="277" parent="239" name="id_topic">
       <Position>4</Position>
       <DataType>int(10)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="276" parent="239" name="id_author">
+    <index id="278" parent="239" name="id_author">
       <ColNames>id_author</ColNames>
     </index>
-    <index id="277" parent="239" name="id_topic">
+    <index id="279" parent="239" name="id_topic">
       <ColNames>id_topic</ColNames>
     </index>
-    <key id="278" parent="239" name="PRIMARY">
+    <key id="280" parent="239" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id_post</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="279" parent="239" name="posts_ibfk_1">
+    <foreign-key id="281" parent="239" name="posts_ibfk_1">
       <ColNames>id_author</ColNames>
       <RefSchemaName>temp</RefSchemaName>
       <RefTableName>users</RefTableName>
       <RefColNames>id_user</RefColNames>
     </foreign-key>
-    <foreign-key id="280" parent="239" name="posts_ibfk_2">
+    <foreign-key id="282" parent="239" name="posts_ibfk_2">
       <ColNames>id_topic</ColNames>
       <RefSchemaName>temp</RefSchemaName>
       <RefTableName>topics</RefTableName>
       <RefColNames>id_topic</RefColNames>
     </foreign-key>
-    <column id="281" parent="240" name="id_topic">
+    <column id="283" parent="240" name="id_topic">
       <Position>1</Position>
       <DataType>int(10)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="282" parent="240" name="topic_name">
+    <column id="284" parent="240" name="topic_name">
       <Position>2</Position>
       <DataType>varchar(100)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="283" parent="240" name="id_author">
+    <column id="285" parent="240" name="id_author">
       <Position>3</Position>
       <DataType>int(10)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="284" parent="240" name="id_author">
+    <index id="286" parent="240" name="id_author">
       <ColNames>id_author</ColNames>
     </index>
-    <key id="285" parent="240" name="PRIMARY">
+    <key id="287" parent="240" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id_topic</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="286" parent="240" name="topics_ibfk_1">
+    <foreign-key id="288" parent="240" name="topics_ibfk_1">
       <ColNames>id_author</ColNames>
       <RefSchemaName>temp</RefSchemaName>
       <RefTableName>users</RefTableName>
       <RefColNames>id_user</RefColNames>
     </foreign-key>
-    <column id="287" parent="241" name="id_user">
+    <column id="289" parent="241" name="id_user">
       <Position>1</Position>
       <DataType>int(10)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="288" parent="241" name="name">
+    <column id="290" parent="241" name="name">
       <Position>2</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="289" parent="241" name="email">
+    <column id="291" parent="241" name="email">
       <Position>3</Position>
       <DataType>varchar(50)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="290" parent="241" name="password">
+    <column id="292" parent="241" name="password">
       <Position>4</Position>
       <DataType>varchar(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="291" parent="241" name="PRIMARY">
+    <key id="293" parent="241" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id_user</ColNames>
       <Primary>1</Primary>

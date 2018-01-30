@@ -1,4 +1,5 @@
 CREATE DATABASE books23;
+# DROP DATABASE books23;
 USE books23;
 # drop table books;
 # DROP TABLE authors;
@@ -6,10 +7,11 @@ USE books23;
 SHOW TABLES;
 
 CREATE TABLE authors23 (
-  id_author  INT(10) AUTO_INCREMENT,
-  first_name VARCHAR(20) NOT NULL,
-  date_birth INT(20)     NOT NULL,
-  country    VARCHAR(20) NOT NULL,
+  id_author   INT(10) AUTO_INCREMENT,
+  first_name  VARCHAR(20) NOT NULL,
+  second_name VARCHAR(20) NOT NULL,
+  date_birth  INT(20)     NOT NULL,
+  country     VARCHAR(20) NOT NULL,
   PRIMARY KEY (id_author)
 );
 
@@ -18,31 +20,32 @@ CREATE TABLE books23 (
   name      VARCHAR(20) NOT NULL,
   ganr      VARCHAR(20) NOT NULL,
   pages     INT(4),
+  year      INT(4)      NOT NULL,
   id_author INT(10),
   PRIMARY KEY (id_book),
   FOREIGN KEY (id_author) REFERENCES authors23 (id_author)
 );
 
-# INSERT INTO authors VALUES ('1', 'aleksandr', 'pushkin', 'russia');
-INSERT INTO authors23 (first_name, date_birth, country) VALUES ('aleksandrh', '1900', 'russia');
-INSERT INTO authors23 (first_name, date_birth, country) VALUES ('michail', '1800', 'russia');
-INSERT INTO authors23 (first_name, date_birth, country) VALUES ('vasilij', '1850', 'belarus');
-INSERT INTO authors23 (first_name, date_birth, country) VALUES ('jakub', '1950', 'belarus');
-INSERT INTO authors23 (first_name, date_birth, country) VALUES ('sergei', '1900', 'russia');
+
+INSERT INTO authors23 (first_name, second_name, date_birth, country) VALUES ('aleksandrh', 'pushkin', '1900', 'russia');
+INSERT INTO authors23 (first_name, second_name, date_birth, country) VALUES ('michail', 'lermontov', '1800', 'russia');
+INSERT INTO authors23 (first_name, second_name, date_birth, country) VALUES ('vasilij', 'bykov', '1850', 'belarus');
+INSERT INTO authors23 (first_name, second_name, date_birth, country) VALUES ('jakub', 'kolos', '1950', 'belarus');
+INSERT INTO authors23 (first_name, second_name, date_birth, country) VALUES ('sergei', 'esenin', '1900', 'russia');
 
 
-INSERT INTO books23 (name, ganr, pages, id_author) VALUES ('name1', 'ganr1', '0001', '1');
-INSERT INTO books23 (name, ganr, pages, id_author) VALUES ('name1', 'ganr1', '0001', '2');
-INSERT INTO books23 (name, ganr, pages, id_author) VALUES ('name2', 'ganr2', '0002', '1');
-INSERT INTO books23 (name, ganr, pages, id_author) VALUES ('name2', 'ganr2', '0002', '2');
-INSERT INTO books23 (name, ganr, pages, id_author) VALUES ('name3', 'ganr3', '0003', '3');
-INSERT INTO books23 (name, ganr, pages, id_author) VALUES ('name4', 'ganr4', '0004', '4');
-INSERT INTO books23 (name, ganr, pages, id_author) VALUES ('name5', 'ganr5', '0005', '5');
-INSERT INTO books23 (name, ganr, pages, id_author) VALUES ('name6', 'ganr6', '0006', '1');
-INSERT INTO books23 (name, ganr, pages, id_author) VALUES ('name7', 'ganr7', '0007', '2');
-INSERT INTO books23 (name, ganr, pages, id_author) VALUES ('name8', 'ganr8', '0008', '3');
-INSERT INTO books23 (name, ganr, pages, id_author) VALUES ('name9', 'ganr9', '0009', '4');
-INSERT INTO books23 (name, ganr, pages, id_author) VALUES ('name10', 'ganr10', '0010', '5');
+INSERT INTO books23 (name, ganr, pages, year, id_author) VALUES ('name1', 'ganr1', '0001', '1901', '1');
+INSERT INTO books23 (name, ganr, pages, year, id_author) VALUES ('name1', 'ganr1', '0001', '1901', '2');
+INSERT INTO books23 (name, ganr, pages, year, id_author) VALUES ('name2', 'ganr2', '0002', '1902', '1');
+INSERT INTO books23 (name, ganr, pages, year, id_author) VALUES ('name2', 'ganr2', '0002', '1902', '2');
+INSERT INTO books23 (name, ganr, pages, year, id_author) VALUES ('name3', 'ganr3', '0003', '1903', '3');
+INSERT INTO books23 (name, ganr, pages, year, id_author) VALUES ('name4', 'ganr4', '0004', '1904', '4');
+INSERT INTO books23 (name, ganr, pages, year, id_author) VALUES ('name5', 'ganr5', '0005', '1905', '5');
+INSERT INTO books23 (name, ganr, pages, year, id_author) VALUES ('name6', 'ganr6', '0006', '1906', '1');
+INSERT INTO books23 (name, ganr, pages, year, id_author) VALUES ('name7', 'ganr7', '0007', '1907', '2');
+INSERT INTO books23 (name, ganr, pages, year, id_author) VALUES ('name8', 'ganr8', '0008', '1908', '3');
+INSERT INTO books23 (name, ganr, pages, year, id_author) VALUES ('name9', 'ganr9', '0009', '1909', '4');
+INSERT INTO books23 (name, ganr, pages, year, id_author) VALUES ('name10', 'ganr10', '0010', '1910', '5');
 
 SELECT *
 FROM authors23;
@@ -106,8 +109,8 @@ HAVING page >= 4;
 
 SELECT
   a.first_name,
-#   avg(pages) AS avg_page,
-  avg(pages) as author_page
+  #   avg(pages) AS avg_page,
+  avg(pages) AS author_page
 FROM books23 b
   JOIN authors23 a ON b.id_author = a.id_author
 GROUP BY first_name;

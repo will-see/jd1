@@ -12,18 +12,18 @@ public class CRUD {
             Connection connection = ConnectionManager.getConnection();
             Statement stmt = connection.createStatement();
             //create
-            stmt.executeUpdate("INSERT INTO books (name, ganr, year, id_author) VALUES ('name10', 'ganr10', '0010', '5')");
+            stmt.executeUpdate("INSERT INTO books23 (name, ganr, year, id_author) VALUES ('name10', 'ganr10', '0010', '5')");
             System.out.println("value added");
             //read
-            rs1 = stmt.executeQuery("SELECT * FROM books");
+            rs1 = stmt.executeQuery("SELECT * FROM books23");
             while (rs1.next()) {
                 System.out.println(rs1.getString("NAME"));
             }
             //update
-            stmt.executeUpdate("UPDATE books SET name = 'name11' WHERE id_book='11';");
+            stmt.executeUpdate("UPDATE books23 SET name = 'name11' WHERE id_book='11';");
             System.out.println("value changed");
             //delite
-            stmt.executeUpdate("DELETE FROM books WHERE id_book>'10';");
+            stmt.executeUpdate("DELETE FROM books23 WHERE id_book>'10';");
             System.out.println("value delited");
 
 

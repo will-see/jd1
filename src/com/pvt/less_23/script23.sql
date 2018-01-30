@@ -102,12 +102,4 @@ FROM books23 b
 GROUP BY first_name
 HAVING page >= 4;
 
-#      7.* Выбрать из таблицы данные в виде: автор, ср. число страниц для всех авторов, среднее количество написанных страниц которых выше среднего количества страниц, написанных всеми авторами.
 
-SELECT
-  a.first_name,
-#   avg(pages) AS avg_page,
-  avg(pages) as author_page
-FROM books23 b
-  JOIN authors23 a ON b.id_author = a.id_author
-GROUP BY first_name;

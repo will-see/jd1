@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d85a836-9938-4a0d-89e7-d97bda889c17" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pvt/less_23/script23.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/pvt/less_25/script25.sql" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/apidocs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mchange_commons_java_0_2_3_4.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/05a03229-feca-4afe-b25d-266a1ddb7c46.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/05a03229-feca-4afe-b25d-266a1ddb7c46.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/PVT_project/test.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/PVT_project.iml" afterPath="$PROJECT_DIR$/PVT_project.iml" />
+      <change beforePath="$PROJECT_DIR$/src/com/pvt/less_23/script23.sql" afterPath="$PROJECT_DIR$/src/com/pvt/less_23/script23.sql" />
+      <change beforePath="$PROJECT_DIR$/src/com/pvt/less_24/CRUD.java" afterPath="$PROJECT_DIR$/src/com/pvt/less_24/CRUD.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pvt/less_24/MainConnection.java" afterPath="$PROJECT_DIR$/src/com/pvt/less_24/MainConnection.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pvt/less_24/database.properties" afterPath="$PROJECT_DIR$/src/com/pvt/less_24/database.properties" />
+      <change beforePath="$PROJECT_DIR$/src/com/pvt/less_25/script25.sql" afterPath="$PROJECT_DIR$/src/com/pvt/less_25/script25.sql" />
     </list>
     <ignored path="PVT_project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,8 +69,7 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="books23: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="books23: table" type="98d5ac3d:MysqlImplModel$Table" />
+        <item name="countries: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -74,31 +79,116 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="temp.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pvt/less_22/temp.sql">
+      <file leaf-file-name="CRUD.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pvt/less_24/CRUD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="86" />
+            <state relative-caret-position="224">
+              <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1517244348161" expanded="true" signature="448:538" ph="INSERT INTO books... " />
+                <marker date="1517244348161" expanded="true" signature="645:664" ph="SELECT * FRO... books" />
+                <marker date="1517244348161" expanded="true" signature="645:666" ph="SELECT * FRO... books23" />
+                <marker date="1517244348161" expanded="true" signature="829:882" ph="UPDATE books... " />
+                <marker date="1517244348161" expanded="true" signature="829:883" ph="INSERT INTO books... " />
+                <marker date="1517244348161" expanded="true" signature="989:1027" ph="DELETE FROM books... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="books23" pinned="false" current-in-tab="false">
+        <entry file="das://table:/7f9e71a2/05a03229-feca-4afe-b25d-266a1ddb7c46/books23.books23">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pvt/less_25/impl/AuthorDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2244">
+              <caret line="142" column="19" lean-forward="true" selection-start-line="142" selection-start-column="19" selection-end-line="142" selection-end-column="19" />
+              <folding>
+                <marker date="1517232403745" expanded="true" signature="487:583" ph="INSERT INTO books23.authors23... " />
+                <marker date="1517232403745" expanded="true" signature="637:736" ph="UPDATE books23.authors23... " />
+                <marker date="1517232403745" expanded="true" signature="787:836" ph="SELECT * FRO... authors23" />
+                <marker date="1517232403745" expanded="true" signature="890:921" ph="SELECT * FRO... authors23" />
+                <marker date="1517232403745" expanded="true" signature="990:1058" ph="SELECT * FRO... authors23" />
+                <marker date="1517232403745" expanded="true" signature="1112:1159" ph="DELETE FROM books23.authors23... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorDaoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pvt/less_25/AuthorDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="32" column="64" lean-forward="false" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05a03229-feca-4afe-b25d-266a1ddb7c46.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/dataSources/05a03229-feca-4afe-b25d-266a1ddb7c46.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script1.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pvt/less_22/script1.sql">
+      <file leaf-file-name="authors23" pinned="false" current-in-tab="false">
+        <entry file="das://table:/7f9e71a2/05a03229-feca-4afe-b25d-266a1ddb7c46/books23.authors23">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pvt/less_24/database.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="43" column="108" lean-forward="true" selection-start-line="43" selection-start-column="108" selection-end-line="43" selection-end-column="108" />
+            <state relative-caret-position="17">
+              <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script25.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/pvt/less_25/script25.sql">
+      <file leaf-file-name="ConnectionManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pvt/less_24/ConnectionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="288">
+              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainConnection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pvt/less_24/MainConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-86">
+              <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script23.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pvt/less_23/script23.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -132,10 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/pvt/less_30/Cl_11.java" />
-        <option value="$PROJECT_DIR$/src/com/pvt/less_30/Cl_12.java" />
-        <option value="$PROJECT_DIR$/src/com/pvt/less_30/Cl_11new.java" />
-        <option value="$PROJECT_DIR$/src/com/pvt/less_30/Cl_11_new.java" />
         <option value="$PROJECT_DIR$/src/com/pvt/less_30/Cl_11_impl.java" />
         <option value="$PROJECT_DIR$/src/com/pvt/less_30/Cl_06.java" />
         <option value="$PROJECT_DIR$/src/com/pvt/less_30/Cl_09.java" />
@@ -178,11 +264,15 @@
         <option value="$PROJECT_DIR$/src/com/pvt/less_24/properties" />
         <option value="$PROJECT_DIR$/src/com/pvt/less_22/script2.sql" />
         <option value="$PROJECT_DIR$/src/com/pvt/less_22/script1.sql" />
-        <option value="$PROJECT_DIR$/src/com/pvt/less_24/MainConnection.java" />
         <option value="$PROJECT_DIR$/src/com/pvt/less_13/cl_03.java" />
-        <option value="$PROJECT_DIR$/src/com/pvt/less_24/ConnectionManager.java" />
-        <option value="$PROJECT_DIR$/src/com/pvt/less_24/CRUD.java" />
         <option value="$PROJECT_DIR$/src/com/pvt/less_23/script1.sql" />
+        <option value="$PROJECT_DIR$/src/com/pvt/less_25/script25.sql" />
+        <option value="$PROJECT_DIR$/src/com/pvt/less_24/CRUD.java" />
+        <option value="$PROJECT_DIR$/src/com/pvt/less_24/MainConnection.java" />
+        <option value="$PROJECT_DIR$/src/com/pvt/less_24/ConnectionManager.java" />
+        <option value="$PROJECT_DIR$/src/com/pvt/less_23/script23.sql" />
+        <option value="$PROJECT_DIR$/src/com/pvt/less_24/database.properties" />
+        <option value="$PROJECT_DIR$/src/com/pvt/less_25/AuthorDaoTest.java" />
       </list>
     </option>
   </component>
@@ -250,6 +340,13 @@
             <path>
               <item name="PVT_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="PVT_project" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="dataSources" type="462c0819:PsiDirectoryNode" />
+              <item name="05a03229-feca-4afe-b25d-266a1ddb7c46" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PVT_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PVT_project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -279,6 +376,14 @@
               <item name="pvt" type="462c0819:PsiDirectoryNode" />
               <item name="less_25" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PVT_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PVT_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+              <item name="less_25" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -291,7 +396,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java_lib/mysql-connector-java-5.1.40-bin.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FirstServer" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -332,7 +437,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CRUD">
+  <component name="RunManager" selected="JUnit.AuthorDaoTest.fullTest">
+    <configuration name="AuthorDaoTest.fullTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pvt.less_25.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PVT_project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pvt.less_25" />
+      <option name="MAIN_CLASS_NAME" value="com.pvt.less_25.AuthorDaoTest" />
+      <option name="METHOD_NAME" value="fullTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -348,25 +478,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.pvt.less_24.CRUD" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PVT_project" />
-      <envs />
-    </configuration>
-    <configuration name="Cl_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.pvt.less_20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.pvt.less_20.Cl_01" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -397,44 +508,6 @@
       <module name="PVT_project" />
       <envs />
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.pvt.less_18.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.pvt.less_18.Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PVT_project" />
-      <envs />
-    </configuration>
-    <configuration name="TestShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.pvt.less_19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.pvt.less_19.TestShop" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PVT_project" />
-      <envs />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -448,6 +521,56 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="AuthorDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pvt.less_25.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PVT_project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pvt.less_25" />
+      <option name="MAIN_CLASS_NAME" value="com.pvt.less_25.AuthorDaoTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="AuthorDaoTest.fullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pvt.less_25.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PVT_project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pvt.less_25" />
+      <option name="MAIN_CLASS_NAME" value="com.pvt.less_25.AuthorDaoTest" />
+      <option name="METHOD_NAME" value="fullTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -680,19 +803,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestShop" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Cl_01" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Cl_02" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CRUD" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Cl_02" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CRUD" />
+      <item index="2" class="java.lang.String" itemvalue="Android JUnit.AuthorDaoTest.fullTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AuthorDaoTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AuthorDaoTest.fullTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CRUD" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Cl_02" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Cl_01" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestShop" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AuthorDaoTest.fullTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AuthorDaoTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CRUD" />
+        <item index="3" class="java.lang.String" itemvalue="Android JUnit.AuthorDaoTest.fullTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Cl_02" />
       </list>
     </recent_temporary>
   </component>
@@ -713,7 +836,7 @@
       <workItem from="1516912830146" duration="397000" />
       <workItem from="1516920824004" duration="2649000" />
       <workItem from="1517080707784" duration="1698000" />
-      <workItem from="1517082572985" duration="11764000" />
+      <workItem from="1517082572985" duration="17132000" />
     </task>
     <task id="LOCAL-00001" summary="less_22 started">
       <created>1516911668325</created>
@@ -736,11 +859,50 @@
       <option name="project" value="LOCAL" />
       <updated>1517086511806</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="less_23 done">
+      <created>1517196141547</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1517196141547</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AuthorDaoTest - 2018.01.29 at 18h 42m 13s.xml">
+      <configuration name="AuthorDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuthorDaoTest_fullTest - 2018.01.29 at 18h 33m 54s.xml">
+      <configuration name="AuthorDaoTest.fullTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="AuthorDaoTest_fullTest - 2018.01.29 at 18h 46m 00s.xml">
+      <configuration name="AuthorDaoTest.fullTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="AuthorDaoTest_fullTest - 2018.01.29 at 18h 53m 53s.xml">
+      <configuration name="AuthorDaoTest.fullTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="AuthorDaoTest_fullTest - 2018.01.29 at 18h 56m 03s.xml">
+      <configuration name="AuthorDaoTest.fullTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="AuthorDaoTest_fullTest - 2018.01.29 at 20h 47m 22s.xml">
+      <configuration name="AuthorDaoTest.fullTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuthorDaoTest_fullTest - 2018.01.29 at 20h 50m 26s.xml">
+      <configuration name="AuthorDaoTest.fullTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuthorDaoTest_fullTest - 2018.01.29 at 20h 51m 30s.xml">
+      <configuration name="AuthorDaoTest.fullTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuthorDaoTest_fullTest - 2018.01.29 at 20h 52m 25s.xml">
+      <configuration name="AuthorDaoTest.fullTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuthorDaoTest_fullTest - 2018.01.29 at 20h 52m 42s.xml">
+      <configuration name="AuthorDaoTest.fullTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25126000" />
+    <option name="totallyTimeSpent" value="30494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -754,11 +916,11 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5060698" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39052287" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39052287" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42647058" sideWeight="0.4939302" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42647058" sideWeight="0.4939302" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17019667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22541603" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -834,7 +996,8 @@
     <MESSAGE value="less_24 continue" />
     <MESSAGE value="less_24 done" />
     <MESSAGE value="less_23 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="less_23 done" />
+    <MESSAGE value="less_25 start" />
+    <option name="LAST_COMMIT_MESSAGE" value="less_25 start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -847,41 +1010,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_11/cl_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_11/cl_02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_11/cl_04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_11/cl_03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="128" column="17" lean-forward="false" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pvt/less_17/Cl_03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1043,24 +1171,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_24/database.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_24/MainConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pvt/less_30/Cl_01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1069,64 +1179,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_24/CRUD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding>
-            <marker date="1517086346707" expanded="true" signature="448:536" ph="INSERT INTO books... " />
-            <marker date="1517086346707" expanded="true" signature="643:662" ph="SELECT * FRO... books" />
-            <marker date="1517086346707" expanded="true" signature="825:876" ph="UPDATE books... " />
-            <marker date="1517086346707" expanded="true" signature="825:877" ph="INSERT INTO books... " />
-            <marker date="1517086346707" expanded="true" signature="983:1019" ph="DELETE FROM books... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pvt/less_13/cl_03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-99">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_24/ConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/7f9e71a2/05a03229-feca-4afe-b25d-266a1ddb7c46/books23.authors23">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/7f9e71a2/05a03229-feca-4afe-b25d-266a1ddb7c46/books23.books23">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_23/script23.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="110" column="14" lean-forward="true" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_22/script2.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1145,26 +1201,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_20/Cl_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pvt/less_22/temp.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_22/script1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="43" column="108" lean-forward="true" selection-start-line="43" selection-start-column="108" selection-end-line="43" selection-end-column="108" />
           <folding />
         </state>
       </provider>
@@ -1177,18 +1217,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dataSources/05a03229-feca-4afe-b25d-266a1ddb7c46.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_25/DAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_25/ItemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_20/Cl_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_22/script1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="43" column="108" lean-forward="false" selection-start-line="43" selection-start-column="108" selection-end-line="43" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_22/script2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pvt/less_25/script25.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="62">
+          <caret line="39" column="86" lean-forward="false" selection-start-line="39" selection-start-column="86" selection-end-line="39" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_25/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_24/MainConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_23/script23.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/7f9e71a2/05a03229-feca-4afe-b25d-266a1ddb7c46/books23.authors23">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/7f9e71a2/05a03229-feca-4afe-b25d-266a1ddb7c46/books23.books23">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_24/ConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_24/CRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1517244348161" expanded="true" signature="448:538" ph="INSERT INTO books... " />
+            <marker date="1517244348161" expanded="true" signature="645:664" ph="SELECT * FRO... books" />
+            <marker date="1517244348161" expanded="true" signature="645:666" ph="SELECT * FRO... books23" />
+            <marker date="1517244348161" expanded="true" signature="829:882" ph="UPDATE books... " />
+            <marker date="1517244348161" expanded="true" signature="829:883" ph="INSERT INTO books... " />
+            <marker date="1517244348161" expanded="true" signature="989:1027" ph="DELETE FROM books... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_24/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_25/impl/AuthorDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="142" column="19" lean-forward="true" selection-start-line="142" selection-start-column="19" selection-end-line="142" selection-end-column="19" />
+          <folding>
+            <marker date="1517232403745" expanded="true" signature="487:583" ph="INSERT INTO books23.authors23... " />
+            <marker date="1517232403745" expanded="true" signature="637:736" ph="UPDATE books23.authors23... " />
+            <marker date="1517232403745" expanded="true" signature="787:836" ph="SELECT * FRO... authors23" />
+            <marker date="1517232403745" expanded="true" signature="890:921" ph="SELECT * FRO... authors23" />
+            <marker date="1517232403745" expanded="true" signature="990:1058" ph="SELECT * FRO... authors23" />
+            <marker date="1517232403745" expanded="true" signature="1112:1159" ph="DELETE FROM books23.authors23... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pvt/less_25/AuthorDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="32" column="64" lean-forward="false" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources/05a03229-feca-4afe-b25d-266a1ddb7c46.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1270,7 +1445,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mysql-connector-java-5.1.40-bin</last-edited>
+          <last-edited>hamcrest-core-1.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

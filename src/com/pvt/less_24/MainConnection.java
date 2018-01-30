@@ -9,7 +9,7 @@ public class MainConnection {
 
     public static void main(String[] args) {
 
-        String url = "jdbc:mysql://localhost:3306/books";
+        String url = "jdbc:mysql://localhost:3306/books23";
         String username = "root";
         String password = "dimabase";
 
